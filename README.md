@@ -1,3 +1,3 @@
-ZF2 TarSignup
+ZF2TarSignup
 ==========
 Very simple singup module for Zend Framework 2
