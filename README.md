@@ -1,2 +1,2 @@
-Zend Framework 2 TarSignup
+ZF2 TarSignup
 ==========
