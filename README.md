@@ -8,6 +8,7 @@ TarSignup is a very simple and very basic signup and signin module for Zend Fram
 
 FEATURES
 ========
+- Form Validation (not jQuery)
 - Email Autentificacion
 - Database Table Authentication
 - Remember me checkbox
