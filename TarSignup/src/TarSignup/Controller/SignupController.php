@@ -95,7 +95,7 @@ class SignupController extends AbstractActionController
                     $this->getSessionStorage()->write($resultRow['username']);
 
                     /*** START SESSION DB STORAGE ***/
-
+		    //@TODO
                     /*** END SESSION DB STORAGE ***/
 
                     return $this->redirect()->toRoute('tar-signup', array(
@@ -184,14 +184,18 @@ class SignupController extends AbstractActionController
                 		    ->setSubject($setSubject)
                 		    ->setBody($setBody);
         		    $transport = new SendmailTransport();
-
-        		    /*** In localhost throw error ***/
-
+        		    
+			    /*** For productin uncomment the following block of code ***/
+			    /*** In XAMPP throw error ***/
+			    
         		    /*
         		    if ($transport->send($message)) {
             		    $this->getSignupTable()->saveUser($signup);
         		    }
         		    */
+        		    
+        		    /*** For save registration form test uncomment the following line ***/
+        		    //$this->getSignupTable()->saveUser($signup);
 
         		    return $this->redirect()->toRoute('tar-signup', array(
                 		'action' => 'notice'
@@ -276,10 +280,5 @@ class SignupController extends AbstractActionController
                 'key'    => $this->getAuthService()->getIdentity(),
             ));
         }
-	}
-
-	public function __destruct()
-	{
-	    $this->flashMessenger()->clearMessagesFromContainer();
 	}
 }
