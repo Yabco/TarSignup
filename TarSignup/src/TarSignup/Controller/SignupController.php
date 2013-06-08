@@ -19,7 +19,7 @@ use Zend\Mail\Message;
 use Zend\Mail\Transport\Sendmail as SendmailTransport;
 use Zend\Session\Config\SessionConfig;
 
-class SignupController extends AbstractActionController
+class SignupController extends AbstractActionController 
 {
     protected $signupTable;
     protected $authService;
