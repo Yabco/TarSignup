@@ -4,7 +4,7 @@ Version 0.0.1 Created by Francisc Tar
 
 INTRODUCTION
 =============
-TarSignup is a very simple and very basic singup and signin module for Zend Framework 2.
+TarSignup is a very simple and very basic signup and signin module for Zend Framework 2.
 
 FEATURES
 ========
