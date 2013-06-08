@@ -96,12 +96,6 @@ class SignupController extends AbstractActionController
 
                     /*** START SESSION DB STORAGE ***/
 
-                    $sessionSaveHandler = $this->getSessionSaveHandler();
-                    $manager     = $this->getSessionManager();
-                    $sessionConfig = new SessionConfig();
-                    $sessionSaveHandler->open($sessionConfig->getOption('save_path'), 'storage_namespace');
-                    $manager->setSaveHandler($sessionSaveHandler);
-
                     /*** END SESSION DB STORAGE ***/
 
                     return $this->redirect()->toRoute('tar-signup', array(

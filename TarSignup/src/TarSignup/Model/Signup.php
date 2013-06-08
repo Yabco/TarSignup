@@ -66,7 +66,7 @@ class Signup implements InputFilterAwareInterface
 							'max'      => 30,
 						),
 					),
-				    /*** ERROR Zend\I18n\Filter component requires the intl PHP extension ***/
+				    /*** XAMPP ERROR Zend\I18n\Filter component requires the intl PHP extension ***/
 				    /*
 					 array(
     				   'name'    => 'Alpha',
