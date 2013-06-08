@@ -21,6 +21,7 @@ TODO
 - Database session storage
 - Unique user login
 - Forgot password
+- Multilanguage
 - ...
 
 INSTALATION
