@@ -52,7 +52,7 @@ class RegisterForm extends Form
 				'placeholder' => 'Repeat your password',
     		),
     		'options' => array(
-				'label' => 'Repet Password:',
+				'label' => 'Repeat Password:',
     		),
         ));
         $this->add(array(
@@ -72,7 +72,7 @@ class RegisterForm extends Form
 				'placeholder' => 'Repeat your email',
     		),
     		'options' => array(
-				'label' => 'Repet Email:'
+				'label' => 'Repeat Email:'
     		),
         ));
         $this->add(array(
