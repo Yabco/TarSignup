@@ -189,7 +189,7 @@ class SignupController extends AbstractActionController
 			    /*** In XAMPP throw error ***/
 			    
         		    /*
-        		    if ($transport->send($message)) {
+        		    if (!$transport->send($message)) {
             		    $this->getSignupTable()->saveUser($signup);
         		    }
         		    */
