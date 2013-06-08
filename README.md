@@ -11,11 +11,11 @@ FEATURES
 - Email Autentificacion
 - Database Table Authentication
 - Remember me checkbox
-- 
+
 REQUIREMENTS
 =============
 - <a href="https://github.com/zendframework/zf2">Zend Framework 2 </a> (latest master)
-- 
+
 TODO
 =====
 - Database session storage
@@ -23,11 +23,11 @@ TODO
 - Forgot password
 - Multilanguage
 - ...
-- 
+
 INSTALATION
 ============
 - I hope I don't have to explain this. "very simple module".
-- 
+
 BTW
 ====
 I'm a noob in ZF2. So, be gentle. ;) Have a nice day.
