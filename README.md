@@ -26,7 +26,7 @@ TODO
 
 INSTALATION
 ============
-- I hope I don't have to explain this "very simple module".
+- I hope I don't have to explain this. "very simple module".
 
 BTW
 ====
